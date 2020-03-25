@@ -106,7 +106,7 @@ class YiyaoYongyazhushouItem(scrapy.Item):
     chaoshuomingshuyongyao = scrapy.Field()
     chaoshuomingshushiyingzheng = scrapy.Field()
     yunfuyongyao = scrapy.Field()
-    xiudingjinzheng = scrapy.Field()
+    xiudingjinjizheng = scrapy.Field()
     yaowujierong = scrapy.Field()
     zhishiyanshen = scrapy.Field()
     yaowuguoliangjijiejiu = scrapy.Field()
