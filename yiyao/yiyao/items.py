@@ -142,3 +142,24 @@ class YiyaoYiyaowangItem(scrapy.Item):
     yijileimu = scrapy.Field()
     erjileimu = scrapy.Field()
     drugid = scrapy.Field()
+
+
+# 药监局 国家基本药物（2018年版）
+class YiyaoYaojianjuJiBenItem(scrapy.Item):
+    yijimulu = scrapy.Field()
+    erjimulu = scrapy.Field()
+    sanjimulu = scrapy.Field()
+    beizhu = scrapy.Field()
+    yingwenming = scrapy.Field()
+    jixingguige = scrapy.Field()
+    pinzhongmingcheng = scrapy.Field()
+
+
+# 药监局 特管药品
+class YiyaoYaojianjuTeGuanItem(scrapy.Item):
+    zhongwenming = scrapy.Field()
+    yingwenming = scrapy.Field()
+    cas = scrapy.Field()
+    beizhu = scrapy.Field()
+    yaopinleibie = scrapy.Field()
+    mulubanben = scrapy.Field()
